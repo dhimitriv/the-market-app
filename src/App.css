@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  /* background-color: rgb(255, 183, 0); */
+  background-image: linear-gradient(to right, #7e0000b9, #00000086);
+  background-image: url(/sunset1.jpg);
+
+  background-size: cover;
+
+  /* img {
+  height: 5rem;
+  width: 5rem;
+} */
+}
+
+.App {
+  text-align: center;
+}
+
+p {
+  font-size: 30px;
+}
+
+.a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.def {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+li {
+  text-decoration: none;
+  list-style: none;
+}
+
+.cta:link,
+.cta:visited {
+  display: inline-block;
+  background-color: rgb(255, 183, 0);
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 1.6rem;
+  font-weight: 600;
+  padding: 0.5rem 2rem;
+  border-radius: 5px;
+}
