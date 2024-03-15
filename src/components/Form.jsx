@@ -79,7 +79,9 @@ export default function Form({ onAddItems }) {
   const ProductList = ({ products }) => {
     return (
       <div className="grid justify-center items-center text-white mb-3">
-        <h2 className="text-xl flex justify-center">List of Products</h2>
+        <h2 className="text-xl flex justify-center">
+          Select products in list or write them in the form.
+        </h2>
         <ul className="grid grid-cols-2 sm:grid-cols-5 justify-center items-center mx-auto text-white sm:w-[450px]">
           {products.map((product) => (
             <li
@@ -109,7 +111,7 @@ export default function Form({ onAddItems }) {
           value={quantity}
           onChange={(e) => setQuantity(Number(e.target.value))}
         >
-          {Array.from({ length: 10 }, (_, i) => i + 1).map((num) => (
+          {Array.from({ length: 20 }, (_, i) => i + 1).map((num) => (
             <option value={num} key={num}>
               {num}
             </option>

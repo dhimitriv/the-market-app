@@ -18,14 +18,14 @@ function MainPage({ onAddItems, items, setItems, onDeleteItems }) {
     <div className="grid justify-center items-center sm:grid grid-cols-1 mx-5">
       <div className="grid grid-cols-1 md:flex items-center justify-between">
         <div className="flex justify-center">
-          <User />
+          <Weather />
         </div>
         <div className="grid grid-cols-1 sm:flex justify-between items-center ">
           <div className="flex justify-center">
-            <Converter />
+            <User />
           </div>
           <div className="flex justify-center">
-            <Weather />
+            <Converter />
           </div>
         </div>
       </div>

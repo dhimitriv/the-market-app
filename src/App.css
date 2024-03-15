@@ -4,8 +4,9 @@
 
 body {
   /* background-color: rgb(255, 183, 0); */
-  background-image: linear-gradient(to right, #7e0000b9, #00000086);
-  background-image: url(/sunset1.jpg);
+  background-color: rgb(48, 48, 48);
+  /* background-image: linear-gradient(to right, #7e0000b9, #00000086); */
+  /* background-image: url(/sunset1.jpg); */
 
   background-size: cover;
 
